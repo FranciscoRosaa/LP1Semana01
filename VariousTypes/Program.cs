@@ -12,17 +12,18 @@ namespace VariousTypes
             short sidade = -18;
             sbyte slvl = -5;
             long sBossHP = -999999999;
-            char copyrightSymbol = '\u2764';
+            char Heart = '\u2764';
             byte lvl = 5;
             ushort idade = 18;
             uint MaxHP = 10;
             ulong BossHP = 999999999;
 
-
-
+            char YinYang = '\u262F';
+            char Warning = '\u26A0';
+            char Watch = '\u231A';
 
             Console.WriteLine(MaxHP);
-            Console.WriteLine(copyrightSymbol);
+            Console.WriteLine(Heart);
             Console.WriteLine(sMaxHP);
             Console.WriteLine(idade);
             Console.WriteLine(sidade);
@@ -30,6 +31,9 @@ namespace VariousTypes
             Console.WriteLine(slvl);
             Console.WriteLine(BossHP);
             Console.WriteLine(sBossHP);
+            Console.WriteLine(YinYang);
+            Console.WriteLine(Warning);
+            Console.WriteLine(Watch);
         }
     }
 }
