@@ -29,7 +29,7 @@ namespace VariousTypes
             Console.WriteLine(lvl);
             Console.WriteLine(slvl);
             Console.WriteLine(BossHP);
-            Console.WriteLine(sBossHP)
+            Console.WriteLine(sBossHP);
         }
     }
 }
