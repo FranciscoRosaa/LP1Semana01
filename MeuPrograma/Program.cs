@@ -3,14 +3,14 @@
 namespace MeuPrograma
 {
     /// <summary>
-    /// Cool class!
+    /// Initializes the program.
     /// </summary>
     public class Program
     {
         /// <summary>
-        /// This prints phrases!
+        /// This prints a hello message and a bye message!
         /// </summary>
-        /// <param name="args">Cool agrs :D!</param>
+        /// <param name="args">Doesn't do anything in this code.</param>
         private static void Main(string[] args)
         {
             Console.WriteLine("Hello LP!");
