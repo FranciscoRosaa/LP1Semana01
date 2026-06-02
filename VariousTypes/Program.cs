@@ -3,8 +3,16 @@ using System.Text;
 
 namespace VariousTypes
 {
+    /// <summary>
+    /// Initializes the Program.
+    /// </summary>
     public class Program
     {
+        /// <summary>
+        /// Prints different types of variables.
+        /// Mainly here for understanding all the different types of variables.
+        /// </summary>
+        /// <param name="args">Doesn't do anything.</param>
         private static void Main(string[] args)
         {
             Console.OutputEncoding = Encoding.UTF8;
