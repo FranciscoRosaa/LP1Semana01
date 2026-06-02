@@ -26,6 +26,8 @@ namespace ManyStrings
             //Exercício 5
             string olamsg = "Olá " + "Mundo" + "!";
             string adeusmsg = "Adeus " + "Mundo" + "!";
+            string estas = "estás?";
+            string questionmsg = "Como " + estas;
 
             Console.WriteLine(hellomsg);
             Console.WriteLine(character);
@@ -33,6 +35,7 @@ namespace ManyStrings
             Console.WriteLine(dir_path);
             Console.WriteLine(olamsg);
             Console.WriteLine(adeusmsg);
+            Console.WriteLine(questionmsg);
         }
     }
 }
