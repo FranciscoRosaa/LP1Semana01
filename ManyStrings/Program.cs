@@ -33,6 +33,14 @@ namespace ManyStrings
             int y = 5;
             string soma = $"O valor de x + y é {x + y}";
 
+            //Exercício 6
+            double xx = 1.23456;
+            int ii = 19;
+            string realxx = $"{xx:f2}";
+            string percentagexx = $"{xx:p1}";
+            string hexii = $"{ii:x}";
+            string coinii = $"{ii:c}";
+
             Console.WriteLine(hellomsg);
             Console.WriteLine(character);
             Console.WriteLine(message);
@@ -42,6 +50,10 @@ namespace ManyStrings
             Console.WriteLine(questionmsg);
             Console.WriteLine(valordex);
             Console.WriteLine(soma);
+            Console.WriteLine(realxx);
+            Console.WriteLine(percentagexx);
+            Console.WriteLine(hexii);
+            Console.WriteLine(coinii);
         }
     }
 }
