@@ -22,6 +22,10 @@ namespace VariousTypes
             char Warning = '\u26A0';
             char Watch = '\u231A';
 
+            float HP = 1.222f;
+            double d = 4186951635015115151;
+            decimal dec = 2385275902707209752;
+
             Console.WriteLine(MaxHP);
             Console.WriteLine(Heart);
             Console.WriteLine(sMaxHP);
@@ -34,6 +38,9 @@ namespace VariousTypes
             Console.WriteLine(YinYang);
             Console.WriteLine(Warning);
             Console.WriteLine(Watch);
+            Console.WriteLine(HP);
+            Console.WriteLine(d);
+            Console.WriteLine(dec);
         }
     }
 }
