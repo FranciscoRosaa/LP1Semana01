@@ -28,6 +28,10 @@ namespace ManyStrings
             string adeusmsg = "Adeus " + "Mundo" + "!";
             string estas = "estás?";
             string questionmsg = "Como " + estas;
+            int x = 10;
+            string valordex = $"O valor de x é {x}.";
+            int y = 5;
+            string soma = $"O valor de x + y é {x + y}";
 
             Console.WriteLine(hellomsg);
             Console.WriteLine(character);
@@ -36,6 +40,8 @@ namespace ManyStrings
             Console.WriteLine(olamsg);
             Console.WriteLine(adeusmsg);
             Console.WriteLine(questionmsg);
+            Console.WriteLine(valordex);
+            Console.WriteLine(soma);
         }
     }
 }
