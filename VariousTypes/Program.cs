@@ -26,6 +26,9 @@ namespace VariousTypes
             double d = 4186951635015115151;
             decimal dec = 2385275902707209752;
 
+            bool verdadeiro = true;
+            bool falso = false;
+
             Console.WriteLine(MaxHP);
             Console.WriteLine(Heart);
             Console.WriteLine(sMaxHP);
@@ -41,6 +44,8 @@ namespace VariousTypes
             Console.WriteLine(HP);
             Console.WriteLine(d);
             Console.WriteLine(dec);
+            Console.WriteLine(verdadeiro);
+            Console.WriteLine(falso);
         }
     }
 }
