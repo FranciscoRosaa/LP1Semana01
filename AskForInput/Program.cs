@@ -8,13 +8,13 @@ namespace AskForInput
     public class Program
     {
         /// <summary>
-        /// Asks the user for an integrer number and a real number and then
+        /// Asks the user for an int number and a real number and then
         /// adds them together.
         /// </summary>
         /// <param name="args"></param>
         private static void Main(string[] args)
         {
-            Console.Write("Insert an integrer number: ");
+            Console.Write("Insert an int number: ");
             string inumber = Console.ReadLine();
             int intnumber = int.Parse(inumber);
             Console.WriteLine(intnumber);
